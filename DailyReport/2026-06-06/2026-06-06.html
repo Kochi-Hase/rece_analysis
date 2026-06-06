@@ -1,0 +1,441 @@
+
+<html lang='ja'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Daily Race Report</title>
+    <style>
+        body { font-family: 'Yu Gothic UI', 'Hiragino Sans', sans-serif; margin: 0; background: radial-gradient(circle at 10% 10%, #eff6ff 0%, #f8fafc 45%, #eef2ff 100%); color: #1f2937; }
+        .container { max-width: 980px; margin: 0 auto; padding: 16px; }
+        .header { background: linear-gradient(120deg, #0b132b 0%, #1c2541 55%, #3a506b 100%); color: #fff; padding: 14px 16px; border-radius: 10px; margin-bottom: 16px; box-shadow: 0 8px 24px rgba(15, 23, 42, 0.28); }
+        .meta { font-size: 13px; opacity: 0.9; margin-top: 6px; }
+        h1 { margin: 0; font-size: 22px; }
+        h2 { margin: 22px 0 12px; font-size: 18px; color: #0f172a; }
+        h3 { margin: 16px 0 8px; font-size: 15px; color: #334155; }
+        .card { background: #fff; border-radius: 10px; padding: 12px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+        img { width: 100%; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; }
+        .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; background: #fff; border-radius: 10px; padding: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+        table { border-collapse: collapse; min-width: 720px; width: 100%; font-size: 12px; }
+        th, td { border: 1px solid #e2e8f0; padding: 6px 8px; text-align: left; white-space: nowrap; }
+        th { background: #f1f5f9; }
+        .summary-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-bottom: 12px; }
+        .summary-item { background: linear-gradient(145deg, #ffffff 0%, #f8fbff 100%); border: 1px solid #dbeafe; border-radius: 12px; padding: 12px; }
+        .summary-label { font-size: 12px; color: #475569; margin-bottom: 4px; }
+        .summary-value { font-size: 24px; font-weight: 700; color: #0f172a; letter-spacing: 0.3px; }
+        .summary-sub { font-size: 12px; color: #64748b; margin-top: 2px; }
+        .summary-panel { background: linear-gradient(140deg, #082f49 0%, #0f766e 45%, #14532d 100%); color: #f8fafc; border-radius: 14px; padding: 16px; box-shadow: 0 10px 24px rgba(2, 44, 34, 0.25); }
+        .summary-title { font-size: 18px; font-weight: 700; margin-bottom: 10px; }
+        .chip-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+        .chip { background: rgba(255, 255, 255, 0.16); border: 1px solid rgba(255, 255, 255, 0.28); border-radius: 999px; padding: 4px 10px; font-size: 12px; }
+        p { line-height: 1.5; }
+        @media (max-width: 640px) {
+            .container { padding: 10px; }
+            h1 { font-size: 18px; }
+            h2 { font-size: 16px; }
+            .header { border-radius: 8px; }
+            .card { border-radius: 8px; }
+            .summary-grid { grid-template-columns: 1fr; }
+            .summary-value { font-size: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class='container'>
+
+<div class='header'>
+<h1>Daily Race Report</h1>
+<div class='meta'>report_date: 2026-06-06 / version: v4</div>
+</div>
+<h2 style='margin-top:40px;'>本日の的中サマリー</h2>
+<div class='summary-panel'>
+<div class='summary-title'>Hit Highlights</div>
+<div class='summary-grid'>
+<div class='summary-item'><div class='summary-label'>レース的中率</div><div class='summary-value'>67%</div><div class='summary-sub'>6 / 9 レース</div></div>
+<div class='summary-item'><div class='summary-label'>買い目的中率</div><div class='summary-value'>54%</div><div class='summary-sub'>7 / 13 件</div></div>
+<div class='summary-item'><div class='summary-label'>平均回収率</div><div class='summary-value'>21.3%</div><div class='summary-sub'>的中時のみ</div></div>
+<div class='summary-item'><div class='summary-label'>判定済み件数</div><div class='summary-value'>13</div><div class='summary-sub'>全 13 件中</div></div>
+</div>
+<div style='margin-top: 8px; font-size: 13px;'>本日の的中レース</div>
+<div class='chip-list'><span class='chip'>東京2R</span><span class='chip'>東京3R</span><span class='chip'>東京4R</span><span class='chip'>東京5R</span><span class='chip'>阪神5R</span><span class='chip'>阪神9R</span></div>
+</div>
+<h2 style='margin-top:40px;'>全レース EV ヒートマップ</h2>
+<div class='card'>
+<img src='../../Heatmap/2026-06-06/2026-06-06.png' width='600px' style='margin:10px 0;'>
+</div>
+<h2 style='margin-top:40px;'>レース別ワイド EV ヒートマップ</h2>
+<h3>東京2R</h3>
+<div class='card'>
+<img src='../../Heatmap/2026-06-06/heatmap_wide_202606060502.png' width='450px' style='margin:10px 0;'>
+</div>
+<h3>東京3R</h3>
+<div class='card'>
+<img src='../../Heatmap/2026-06-06/heatmap_wide_202606060503.png' width='450px' style='margin:10px 0;'>
+</div>
+<h3>東京4R</h3>
+<div class='card'>
+<img src='../../Heatmap/2026-06-06/heatmap_wide_202606060504.png' width='450px' style='margin:10px 0;'>
+</div>
+<h3>東京5R</h3>
+<div class='card'>
+<img src='../../Heatmap/2026-06-06/heatmap_wide_202606060505.png' width='450px' style='margin:10px 0;'>
+</div>
+<h3>阪神1R</h3>
+<div class='card'>
+<img src='../../Heatmap/2026-06-06/heatmap_wide_202606060901.png' width='450px' style='margin:10px 0;'>
+</div>
+<h3>阪神2R</h3>
+<div class='card'>
+<img src='../../Heatmap/2026-06-06/heatmap_wide_202606060902.png' width='450px' style='margin:10px 0;'>
+</div>
+<h3>阪神5R</h3>
+<div class='card'>
+<img src='../../Heatmap/2026-06-06/heatmap_wide_202606060905.png' width='450px' style='margin:10px 0;'>
+</div>
+<h3>阪神9R</h3>
+<div class='card'>
+<img src='../../Heatmap/2026-06-06/heatmap_wide_202606060909.png' width='450px' style='margin:10px 0;'>
+</div>
+<h3>阪神10R</h3>
+<div class='card'>
+<img src='../../Heatmap/2026-06-06/heatmap_wide_202606060910.png' width='450px' style='margin:10px 0;'>
+</div>
+<h2 style='margin-top:40px;'>勝負レース一覧</h2>
+<div class='table-wrap'>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>race_label_ui</th>
+      <th>race_score</th>
+      <th>difficulty_score</th>
+      <th>comment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>阪神5R</td>
+      <td>0.765960</td>
+      <td>0.350000</td>
+      <td>勝負度が非常に高いレースです。 堅い決着が見込まれるレースです。 本命は 3-5。 EV=-0.97, p_hit=0.010 とバランスが良好です。 次点候補は 5-1。 EV=-0.99。 適度なリスクで、標準的な賭け方が適しています。</td>
+    </tr>
+    <tr>
+      <td>阪神9R</td>
+      <td>0.720900</td>
+      <td>0.425060</td>
+      <td>勝負度が高めのレースです。 比較的堅めの決着が期待できます。 本命は 4-3。 EV=-0.97, p_hit=0.011 とバランスが良好です。 次点候補は 4-5。 EV=-0.99。 適度なリスクで、標準的な賭け方が適しています。</td>
+    </tr>
+    <tr>
+      <td>東京5R</td>
+      <td>0.584280</td>
+      <td>0.386531</td>
+      <td>勝負度が高めのレースです。 堅い決着が見込まれるレースです。 本命は 1-2。 EV=-0.98, p_hit=0.006 とバランスが良好です。 次点候補は 9-2。 EV=-0.99。 適度なリスクで、標準的な賭け方が適しています。</td>
+    </tr>
+    <tr>
+      <td>阪神10R</td>
+      <td>0.566978</td>
+      <td>0.485959</td>
+      <td>勝負度が高めのレースです。 比較的堅めの決着が期待できます。 本命は 5-6。 EV=-0.98, p_hit=0.006 とバランスが良好です。 次点候補は 4-6。 EV=-0.98。 適度なリスクで、標準的な賭け方が適しています。</td>
+    </tr>
+    <tr>
+      <td>東京4R</td>
+      <td>0.547410</td>
+      <td>0.311488</td>
+      <td>やや勝負度があるレースです。 堅い決着が見込まれるレースです。 本命は 5-4。 EV=-0.98, p_hit=0.006 とバランスが良好です。 次点候補は 2-4。 EV=-0.99。 適度なリスクで、標準的な賭け方が適しています。</td>
+    </tr>
+    <tr>
+      <td>東京3R</td>
+      <td>0.437678</td>
+      <td>0.603790</td>
+      <td>やや勝負度があるレースです。 やや荒れやすい傾向があります。 本命は 12-15。 EV=-0.99, p_hit=0.005 とバランスが良好です。 次点候補は 9-15。 EV=-1.00。 適度なリスクで、標準的な賭け方が適しています。</td>
+    </tr>
+    <tr>
+      <td>東京2R</td>
+      <td>0.388963</td>
+      <td>0.598761</td>
+      <td>勝負度は低めで、慎重に扱いたいレースです。 やや荒れやすい傾向があります。 本命は 9-1。 EV=-0.99, p_hit=0.003 とバランスが良好です。 次点候補は 13-1。 EV=-0.99。 適度なリスクで、標準的な賭け方が適しています。</td>
+    </tr>
+    <tr>
+      <td>阪神2R</td>
+      <td>0.376239</td>
+      <td>0.595523</td>
+      <td>勝負度は低めで、慎重に扱いたいレースです。 やや荒れやすい傾向があります。 本命は 15-10。 EV=-0.99, p_hit=0.004 とバランスが良好です。 次点候補は 5-15。 EV=-1.00。 適度なリスクで、標準的な賭け方が適しています。</td>
+    </tr>
+    <tr>
+      <td>阪神1R</td>
+      <td>0.367799</td>
+      <td>0.595554</td>
+      <td>勝負度は低めで、慎重に扱いたいレースです。 やや荒れやすい傾向があります。 本命は 1-11。 EV=-0.99, p_hit=0.003 とバランスが良好です。 次点候補は 15-11。 EV=-0.99。 適度なリスクで、標準的な賭け方が適しています。</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h2 style='margin-top:40px;'>買い目一覧</h2>
+<div class='table-wrap'>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>race_label_ui</th>
+      <th>bet_type</th>
+      <th>selection_ui</th>
+      <th>umaban_1</th>
+      <th>umaban_2</th>
+      <th>bet_score</th>
+      <th>ev</th>
+      <th>p_hit</th>
+      <th>odds</th>
+      <th>return_amount</th>
+      <th>hit_status</th>
+      <th>is_nonstarter</th>
+      <th>is_nonstarter_1</th>
+      <th>is_nonstarter_2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>阪神9R</td>
+      <td>wide</td>
+      <td>4-3</td>
+      <td>4</td>
+      <td>3</td>
+      <td>0.944180</td>
+      <td>-0.966812</td>
+      <td>0.011063</td>
+      <td>1.2</td>
+      <td>120.0</td>
+      <td>的中</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>阪神5R</td>
+      <td>wide</td>
+      <td>3-5</td>
+      <td>3</td>
+      <td>5</td>
+      <td>0.885492</td>
+      <td>-0.970022</td>
+      <td>0.009993</td>
+      <td>1.3</td>
+      <td>150.0</td>
+      <td>的中</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>阪神5R</td>
+      <td>wide</td>
+      <td>5-1</td>
+      <td>5</td>
+      <td>1</td>
+      <td>0.459165</td>
+      <td>-0.990235</td>
+      <td>0.003255</td>
+      <td>1.5</td>
+      <td>0.0</td>
+      <td>はずれ</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>阪神2R</td>
+      <td>wide</td>
+      <td>15-10</td>
+      <td>15</td>
+      <td>10</td>
+      <td>0.401818</td>
+      <td>-0.989258</td>
+      <td>0.003581</td>
+      <td>1.7</td>
+      <td>0.0</td>
+      <td>はずれ</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>阪神1R</td>
+      <td>wide</td>
+      <td>1-11</td>
+      <td>1</td>
+      <td>11</td>
+      <td>0.345562</td>
+      <td>-0.991845</td>
+      <td>0.002718</td>
+      <td>4.4</td>
+      <td>0.0</td>
+      <td>はずれ</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>阪神10R</td>
+      <td>wide</td>
+      <td>5-6</td>
+      <td>5</td>
+      <td>6</td>
+      <td>0.602586</td>
+      <td>-0.981548</td>
+      <td>0.006151</td>
+      <td>1.6</td>
+      <td>0.0</td>
+      <td>はずれ</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>阪神10R</td>
+      <td>wide</td>
+      <td>4-6</td>
+      <td>4</td>
+      <td>6</td>
+      <td>0.562286</td>
+      <td>-0.983459</td>
+      <td>0.005514</td>
+      <td>2.3</td>
+      <td>0.0</td>
+      <td>はずれ</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>東京5R</td>
+      <td>wide</td>
+      <td>1-2</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0.624453</td>
+      <td>-0.980675</td>
+      <td>0.006442</td>
+      <td>1.4</td>
+      <td>140.0</td>
+      <td>的中</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>東京5R</td>
+      <td>wide</td>
+      <td>9-2</td>
+      <td>9</td>
+      <td>2</td>
+      <td>0.483642</td>
+      <td>-0.987351</td>
+      <td>0.004216</td>
+      <td>3.3</td>
+      <td>0.0</td>
+      <td>はずれ</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>東京4R</td>
+      <td>wide</td>
+      <td>5-4</td>
+      <td>5</td>
+      <td>4</td>
+      <td>0.572117</td>
+      <td>-0.982807</td>
+      <td>0.005731</td>
+      <td>1.9</td>
+      <td>190.0</td>
+      <td>的中</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>東京4R</td>
+      <td>wide</td>
+      <td>2-4</td>
+      <td>2</td>
+      <td>4</td>
+      <td>0.464325</td>
+      <td>-0.987918</td>
+      <td>0.004027</td>
+      <td>2.0</td>
+      <td>200.0</td>
+      <td>的中</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>東京3R</td>
+      <td>wide</td>
+      <td>12-15</td>
+      <td>12</td>
+      <td>15</td>
+      <td>0.484520</td>
+      <td>-0.985919</td>
+      <td>0.004694</td>
+      <td>1.7</td>
+      <td>170.0</td>
+      <td>的中</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>東京2R</td>
+      <td>wide</td>
+      <td>9-1</td>
+      <td>9</td>
+      <td>1</td>
+      <td>0.391926</td>
+      <td>-0.989848</td>
+      <td>0.003384</td>
+      <td>1.4</td>
+      <td>150.0</td>
+      <td>的中</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h2 style='margin-top:40px;'>レース別コメント</h2>
+<h3>阪神5R</h3>
+<div class='card'>
+<p>勝負度が非常に高いレースです。 堅い決着が見込まれるレースです。 本命は 3-5。 EV=-0.97, p_hit=0.010 とバランスが良好です。 次点候補は 5-1。 EV=-0.99。 適度なリスクで、標準的な賭け方が適しています。</p>
+</div>
+<h3>阪神9R</h3>
+<div class='card'>
+<p>勝負度が高めのレースです。 比較的堅めの決着が期待できます。 本命は 4-3。 EV=-0.97, p_hit=0.011 とバランスが良好です。 次点候補は 4-5。 EV=-0.99。 適度なリスクで、標準的な賭け方が適しています。</p>
+</div>
+<h3>東京5R</h3>
+<div class='card'>
+<p>勝負度が高めのレースです。 堅い決着が見込まれるレースです。 本命は 1-2。 EV=-0.98, p_hit=0.006 とバランスが良好です。 次点候補は 9-2。 EV=-0.99。 適度なリスクで、標準的な賭け方が適しています。</p>
+</div>
+<h3>阪神10R</h3>
+<div class='card'>
+<p>勝負度が高めのレースです。 比較的堅めの決着が期待できます。 本命は 5-6。 EV=-0.98, p_hit=0.006 とバランスが良好です。 次点候補は 4-6。 EV=-0.98。 適度なリスクで、標準的な賭け方が適しています。</p>
+</div>
+<h3>東京4R</h3>
+<div class='card'>
+<p>やや勝負度があるレースです。 堅い決着が見込まれるレースです。 本命は 5-4。 EV=-0.98, p_hit=0.006 とバランスが良好です。 次点候補は 2-4。 EV=-0.99。 適度なリスクで、標準的な賭け方が適しています。</p>
+</div>
+<h3>東京3R</h3>
+<div class='card'>
+<p>やや勝負度があるレースです。 やや荒れやすい傾向があります。 本命は 12-15。 EV=-0.99, p_hit=0.005 とバランスが良好です。 次点候補は 9-15。 EV=-1.00。 適度なリスクで、標準的な賭け方が適しています。</p>
+</div>
+<h3>東京2R</h3>
+<div class='card'>
+<p>勝負度は低めで、慎重に扱いたいレースです。 やや荒れやすい傾向があります。 本命は 9-1。 EV=-0.99, p_hit=0.003 とバランスが良好です。 次点候補は 13-1。 EV=-0.99。 適度なリスクで、標準的な賭け方が適しています。</p>
+</div>
+<h3>阪神2R</h3>
+<div class='card'>
+<p>勝負度は低めで、慎重に扱いたいレースです。 やや荒れやすい傾向があります。 本命は 15-10。 EV=-0.99, p_hit=0.004 とバランスが良好です。 次点候補は 5-15。 EV=-1.00。 適度なリスクで、標準的な賭け方が適しています。</p>
+</div>
+<h3>阪神1R</h3>
+<div class='card'>
+<p>勝負度は低めで、慎重に扱いたいレースです。 やや荒れやすい傾向があります。 本命は 1-11。 EV=-0.99, p_hit=0.003 とバランスが良好です。 次点候補は 15-11。 EV=-0.99。 適度なリスクで、標準的な賭け方が適しています。</p>
+</div>
+</div></body></html>
